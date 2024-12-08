@@ -1,0 +1,139 @@
+[
+    {
+      "nombre": "Dr. Juan Pérez",
+      "anoEgreso": 2010,
+      "comuna": "Chillán",
+      "especialidad": "Cardiología",
+      "anoEspecialidad": 2015,
+      "areaAtencion": "Emergencias"
+    },
+    {
+      "nombre": "Dra. María López",
+      "anoEgreso": 2012,
+      "comuna": "Chillán Viejo",
+      "especialidad": "Dermatología",
+      "anoEspecialidad": 2017,
+      "areaAtencion": "Consulta Externa"
+    },
+    {
+      "nombre": "Dr. Carlos Ramírez",
+      "anoEgreso": 2008,
+      "comuna": "San Carlos",
+      "especialidad": "Pediatría",
+      "anoEspecialidad": 2013,
+      "areaAtencion": "Consulta Externa"
+    },
+    {
+      "nombre": "Dra. Elena Torres",
+      "anoEgreso": 2005,
+      "comuna": "Bulnes",
+      "especialidad": "Ginecología",
+      "anoEspecialidad": 2010,
+      "areaAtencion": "Hospitalización"
+    },
+    {
+      "nombre": "Dr. Luis García",
+      "anoEgreso": 2011,
+      "comuna": "Coihueco",
+      "especialidad": "Neurología",
+      "anoEspecialidad": 2018,
+      "areaAtencion": "Consulta Externa"
+    },
+    {
+      "nombre": "Dra. Ana Martínez",
+      "anoEgreso": 2009,
+      "comuna": "Quirihue",
+      "especialidad": "Traumatología",
+      "anoEspecialidad": 2014,
+      "areaAtencion": "Emergencias"
+    },
+    {
+      "nombre": "Dr. Roberto Castro",
+      "anoEgreso": 2006,
+      "comuna": "San Fabián",
+      "especialidad": "Oncología",
+      "anoEspecialidad": 2012,
+      "areaAtencion": "Hospitalización"
+    },
+    {
+      "nombre": "Dra. Sofía Herrera",
+      "anoEgreso": 2013,
+      "comuna": "San Ignacio",
+      "especialidad": "Psiquiatría",
+      "anoEspecialidad": 2019,
+      "areaAtencion": "Consulta Externa"
+    },
+    {
+      "nombre": "Dr. Fernando Vega",
+      "anoEgreso": 2007,
+      "comuna": "El Carmen",
+      "especialidad": "Medicina Interna",
+      "anoEspecialidad": 2012,
+      "areaAtencion": "Emergencias"
+    },
+    {
+      "nombre": "Dra. Patricia Rojas",
+      "anoEgreso": 2014,
+      "comuna": "Yungay",
+      "especialidad": "Endocrinología",
+      "anoEspecialidad": 2019,
+      "areaAtencion": "Consulta Externa"
+    },
+    {
+      "nombre": "Dr. Javier Morales",
+      "anoEgreso": 2011,
+      "comuna": "Pemuco",
+      "especialidad": "Geriatría",
+      "anoEspecialidad": 2016,
+      "areaAtencion": "Hospitalización"
+    },
+    {
+      "nombre": "Dra. Carolina Soto",
+      "anoEgreso": 2008,
+      "comuna": "Quillón",
+      "especialidad": "Reumatología",
+      "anoEspecialidad": 2013,
+      "areaAtencion": "Consulta Externa"
+    },
+    {
+      "nombre": "Dr. Daniel Reyes",
+      "anoEgreso": 2006,
+      "comuna": "Ninhue",
+      "especialidad": "Neumología",
+      "anoEspecialidad": 2011,
+      "areaAtencion": "Hospitalización"
+    },
+    {
+      "nombre": "Dra. Valeria Ortiz",
+      "anoEgreso": 2014,
+      "comuna": "Portezuelo",
+      "especialidad": "Gastroenterología",
+      "anoEspecialidad": 2018,
+      "areaAtencion": "Consulta Externa"
+    },
+    {
+      "nombre": "Dr. Francisco Navarro",
+      "anoEgreso": 2010,
+      "comuna": "Cobquecura",
+      "especialidad": "Oftalmología",
+      "anoEspecialidad": 2016,
+      "areaAtencion": "Emergencias"
+    },
+    {
+      "nombre": "Dra. Daniela Vargas",
+      "anoEgreso": 2007,
+      "comuna": "Ránquil",
+      "especialidad": "Cirugía General",
+      "anoEspecialidad": 2013,
+      "areaAtencion": "Hospitalización"
+    },
+    {
+      "nombre": "Dr. Ignacio Sepúlveda",
+      "anoEgreso": 2013,
+      "comuna": "Trehuaco",
+      "especialidad": "Otorrinolaringología",
+      "anoEspecialidad": 2019,
+      "areaAtencion": "Consulta Externa"
+    }
+  ]
+  

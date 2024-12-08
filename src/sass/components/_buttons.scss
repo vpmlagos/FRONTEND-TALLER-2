@@ -1,0 +1,20 @@
+@use '../abstracts/variables' as vars;
+@use '../abstracts/mixins' as mixins;
+
+
+.btncarousel {
+  font-size: medium;
+  padding: 0.5em 1em;
+  border-radius: 30px;
+  font-family: vars.$font-primary;
+  @include mixins.transition(background-color);
+  border: none;
+  background-color: vars.$primary-color;
+  color: white;
+  text-decoration: none;
+}
+
+.btncarousel:hover {
+  background-color: white;
+  color: black;
+}

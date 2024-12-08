@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clínica Hoffen</title>
+  <link rel="stylesheet" href="../FRONTEND-hospital/dist/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
+</head>
+
+<body>
+  <!-- Encabezado -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="src/img/logohoffen.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="equipo.html">Equipo Médico</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="contacto.html">Contacto</a></li>
+          </ul>
+          <button class="btn ml-auto" type="submit"  onclick="location.href='reservas.html';">Reservar Cita</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Sección de Bienvenida -->
+    <section class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="src/img/home-welcome.jpg" class="d-block w-100 rounded" alt="..."> <!-- Redondeado con "rounded" -->
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Siempre cerca de ti</h5>
+            <p>Cuando más nos necesitas</p>
+            <a href="contacto.html" class="btncarousel">Reserva tu cita</a> <!-- Redirección correcta -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="src/img/excelencia.jpg" class="d-block w-100 rounded" alt="..."> <!-- Redondeado con "rounded" -->
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Con los mejores especialistas</h5>
+            <p>Tu salud es nuestra prioridad</p>
+            <a href="equipo.html" class="btncarousel">Elige tu especialidad</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="src/img/home-welcome.jpg" class="d-block w-100 rounded" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Clínica Hoffen</h5>
+            <p>Salud y Vida</p>
+            <a href="contacto.html" class="btncarousel">Escríbenos</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+
+ <!-- Sección de Especialidades -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Especialidades</h2>
+  <div class="row g-4">
+
+    <!-- Card 1: Oncología -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100">
+        <img src="src/img/doctor1.jpg" class="card-img-top" alt="Especialidad en Oncología">
+        <div class="card-body">
+          <h5 class="card-title">Oncología</h5>
+          <p class="card-text">Nuestra especialidad en oncología se dedica a proporcionar tratamientos avanzados para el cuidado del cáncer, con un equipo especializado para cada tipo de tumor.</p>
+          <a href="equipo.html" class="btn"><img src="src/img/keyboard_double_arrow_right_30dp_179FCD_FILL0_wght400_GRAD0_opsz24.png" width="25" height="25"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Cardiología -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100">
+        <img src="src/img/doctor2.jpg" class="card-img-top" alt="Especialidad en Cardiología">
+        <div class="card-body">
+          <h5 class="card-title">Cardiología</h5>
+          <p class="card-text">Contamos con expertos en el diagnóstico y tratamiento de enfermedades del corazón, ayudando a prevenir y tratar condiciones cardíacas graves.</p>
+          <a href="equipo.html" class="btn"><img src="src/img/keyboard_double_arrow_right_30dp_179FCD_FILL0_wght400_GRAD0_opsz24.png" width="25" height="25"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Ginecología -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100">
+        <img src="src/img/doctor3.jpg" class="card-img-top" alt="Especialidad en Ginecología">
+        <div class="card-body">
+          <h5 class="card-title">Ginecología</h5>
+          <p class="card-text">Nuestra unidad ginecológica ofrece atención especializada para la salud de la mujer, desde chequeos regulares hasta el tratamiento de condiciones específicas.</p>
+          <a href="equipo.html" class="btn"><img src="src/img/keyboard_double_arrow_right_30dp_179FCD_FILL0_wght400_GRAD0_opsz24.png" width="25" height="25"></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+ <!-- Sección de Comentarios -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Comentarios de nuestros pacientes</h2>
+  <div class="row g-4">
+
+    <!-- Card 1: Comentario 1 -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100">
+        <div class="d-flex align-items-center p-3">
+          <img src="https://ui-avatars.com/api/?name=J&background=179fcd&color=ffff&size=40x40"
+            class="rounded-circle me-3" alt="Juan Pérez" style="width: 50px; height: 50px;">
+          <div>
+            <h5 class="card-title mb-1">Juan Pérez</h5>
+            <p class="card-text mb-0"><span class="flag-icon flag-icon-cl"></span> Chile</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <p class="card-text">"La atención que recibí fue excelente. Me sentí muy cómodo y bien cuidado durante mi
+            tratamiento. ¡Recomiendo mucho esta clínica!"</p>
+          <div class="rating">
+            <span>⭐️⭐️⭐️⭐️⭐️</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Comentario 2 -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100">
+        <div class="d-flex align-items-center p-3">
+          <img src="https://ui-avatars.com/api/?name=A&background=179fcd&color=ffff&size=40x40"
+            class="rounded-circle me-3" alt="Ana Silva" style="width: 50px; height: 50px;">
+          <div>
+            <h5 class="card-title mb-1">Ana Silva</h5>
+            <p class="card-text mb-0"><span class="flag-icon flag-icon-br"></span> Brasil</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <p class="card-text">"A equipe médica foi muito profissional e me explicou tudo com clareza. Obrigado por
+            tudo."</p>
+          <div class="rating">
+            <span>⭐️⭐️⭐️⭐️⭐️</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Comentario 3 -->
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <div class="card h-100">
+        <div class="d-flex align-items-center p-3">
+          <img src="https://ui-avatars.com/api/?name=C&background=179fcd&color=ffff&size=40x40"
+            class="rounded-circle me-3" alt="Carlos Méndez" style="width: 50px; height: 50px;">
+          <div>
+            <h5 class="card-title mb-1">Carlos Méndez</h5>
+            <p class="card-text mb-0"><span class="flag-icon flag-icon-pe"></span> Perú</p>
+          </div>
+        </div>
+        <div class="card-body">
+          <p class="card-text">"La atención fue increíble, el personal fue amable y me ayudaron en todo momento.
+            Totalmente recomendado."</p>
+          <div class="rating">
+            <span>⭐️⭐️⭐️⭐️⭐️</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="container py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="equipo.html" class="nav-link px-2 text-muted">Equipo Médico</a></li>
+      <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2024 Clínica Hoffen, Inc</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

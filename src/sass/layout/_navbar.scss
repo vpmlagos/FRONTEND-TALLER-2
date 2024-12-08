@@ -1,0 +1,88 @@
+@use '../abstracts/variables' as vars;
+@use '../abstracts/mixins' as mixins;
+
+.navbar {
+  background-color: white;
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+  max-width: 320px;
+  height: 76px;
+}
+
+.navbar .nav-link {
+  font-size: 1.2rem;
+  font-family: vars.$font-primary;
+  font-weight: bold;
+  color: vars.$secondary-color;
+  text-decoration: none;
+  @include mixins.transition(color);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 17px 20px;
+}
+
+.navbar .nav-link:hover {
+  color: vars.$primary-color;
+}
+
+.navbar .btn {
+  font-size: 1.2rem;
+  padding: 0.75em 1.5em;
+  border-radius: 30px;
+  font-family: vars.$font-primary;
+  @include mixins.transition(background-color);
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: vars.$primary-color;
+  color: white;
+}
+
+.navbar .btn:hover {
+  background-color: vars.$light-color;
+  color: black;
+  transform: translateY(-2px);
+}
+
+.nav-item:hover {
+  color: vars.$primary-color;
+}
+
+.navbar .btn:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+.navbar .btn.ml-auto {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+@media (max-width: 915px) {
+  .navbar .btn {
+    font-size: 1rem;
+    padding: 0.5em 1.2em;
+  }
+}
+.brand-tittle{
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #179fcd;
+  text-decoration: none;
+}
+.brand-slogan{
+  font-size: small;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #179fcd;
+  text-decoration: none;
+}
+

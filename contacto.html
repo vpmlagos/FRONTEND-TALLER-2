@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clínica Hoffen</title>
+  <link rel="stylesheet" href="../FRONTEND-hospital/dist/style.css">
+</head>
+
+<body>
+  <!--INICIO ENCABEZADO-->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="src/img/logohoffen.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="equipo.html">Equipo Médico</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="contacto.html">Contacto</a></li>
+          </ul>
+          <button class="btn ml-auto" type="submit"  onclick="location.href='reservas.html';">Reservar Cita</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--FIN ENCABEZADO-->
+  <!--INICIO FORMS-->
+  <main>
+    <section class="container py-5">
+      <form>
+        <!-- Nombre -->
+        <div class="form-group mb-3">
+          <label for="formNombre">Nombre</label>
+          <input type="text" class="form-control" id="formNombre" placeholder="Nombre">
+        </div>
+        
+        <!-- Email -->
+        <div class="form-group mb-3">
+          <label for="formEmail">Correo electrónico</label>
+          <input type="email" class="form-control" id="formEmail" aria-describedby="emailHelp" placeholder="Tu email">
+          <small id="emailHelp" class="form-text text-muted">Usaremos este email para contactarle</small>
+        </div>
+        
+        <!-- Asunto -->
+        <div class="form-group mb-3">
+          <label for="formAsunto">Asunto</label>
+          <input type="text" class="form-control" id="formAsunto" placeholder="Asunto">
+        </div>
+        
+        <!-- Mensaje -->
+        <div class="form-group mb-3">
+          <label for="formMensaje">Mensaje</label>
+          <textarea class="form-control" id="formMensaje" placeholder="Tu mensaje aquí" rows="3"></textarea>
+        </div>
+    
+        <!-- Botón de envío -->
+        <div class="text-center">
+          <button type="submit" class="btncarousel">Enviar</button>
+        </div>
+      </form>
+    </section>    
+    <!--FIN FORMS-->
+    <br>
+    <!--INICIO MAPS-->
+    <section class="container"  style="width: 100%"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0"
+        marginwidth="0"
+        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Malet%20St,%20London%20WC1E%207HU,%20United%20Kingdom+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+          href="https://www.gps.ie/sport-gps/">fitness tracker</a></iframe></section>
+    <!--FIN MAPS-->
+  </main>
+  <!--INICIO FOOTER-->
+  <footer class="container py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="equipo.html" class="nav-link px-2 text-muted">Equipo Médico</a></li>
+      <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2024 Clínica Hoffen, Inc</p>
+  </footer>
+  <!--FIN FOOTER-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

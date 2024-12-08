@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clínica Hoffen</title>
+  <link rel="stylesheet" href="../FRONTEND-hospital/dist/style.css">
+</head>
+
+<body>
+  <!-- Encabezado -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="src/img/logohoffen.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="equipo.html">Equipo Médico</a></li>
+            <li class="nav-item"><a class="nav-link" aria-current="page" href="contacto.html">Contacto</a></li>
+          </ul>
+          <button class="btn ml-auto" type="submit"  onclick="location.href='reservas.html';">Reservar Cita</button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- INICIO SECCION DE PRESENTACION-->
+    <section class="banner-card position-relative text-center shadow-lg rounded">
+      <img src="src/img/excelencia.jpg" alt="Imagen de la clínica" class="img-fluid rounded opacity-25">
+      <div class="banner-content position-absolute top-50 start-50 translate-middle p-3">
+        <h2 class="text-white fw-bold text-body-tertiary">Bienvenidos a Clínica Hoffen. Comprometidos con la excelencia</h2>
+        <a href="contacto.html" class="btn btn-light">Agenda tu cita</a>
+      </div>
+    </section>
+  
+    <!-- INICIO SECCION DE LISTA DE EQUIPO MEDICO -->
+    <section class="container my-5">
+      <div class="row g-4">
+        <!-- IMG 1 y Tarjeta -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <div class="team-card shadow" style="height: 450px;">
+            <img src="src/img/especialidad1.jpg" alt="Doctora con paciente" class="img-fluid rounded mb-3" style="object-fit: cover; height: 200px;">
+            <div class="card-body text-center">
+              <span>Doctora Fernandez</span>
+              <p>Especialista en Oncología<br>Con más de 5 años de experiencia en tratamientos de radioterapia</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- IMG 2 y Tarjeta -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <div class="team-card shadow" style="height: 450px;">
+            <img src="src/img/especialidad2.jpg" alt="Doctora con paciente" class="img-fluid rounded mb-3" style="object-fit: cover; height: 200px;">
+            <div class="card-body text-center">
+              <span>Doctor Martinez</span>
+              <p>Especialista en Cirugía<br>Posee más de 10 años de experiencia</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- IMG 3 y Tarjeta -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <div class="team-card shadow"style="height: 450px">
+            <img src="src/img/especialidad3.jpg" alt="Doctora con paciente" class="img-fluid rounded mb-3" style="object-fit: cover; height: 200px;">
+            <div class="card-body text-center">
+              <span>Doctora Vergara</span>
+              <p>Especialista en Geriatría<br>Maestría en Geriatría</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- IMG 4 y Tarjeta -->
+        <div class="col-lg-3 col-md-6 col-sm-12 text-center">
+          <div class="team-card shadow" style="height: 450px">
+            <img src="src/img/especialidad4.jpg" alt="Doctora con paciente" class="img-fluid rounded mb-3" style="object-fit: cover; height: 200px;">
+            <div class="card-body text-center">
+              <span>Doctor Rodriguez</span>
+              <p>Especialista en Cardiología<br>Con más de 20 años de experiencia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FIN SECCION DE LISTA DE EQUIPO MEDICO -->
+  </main>
+  
+ 
+
+  <!-- INICIO FOOTER -->
+  <footer class="container py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="equipo.html" class="nav-link px-2 text-muted">Equipo Médico</a></li>
+      <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2024 Hospital Hoffen, Inc</p>
+  </footer>
+  <!-- FIN FOOTER -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

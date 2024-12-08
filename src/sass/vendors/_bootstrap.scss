@@ -1,0 +1,15 @@
+// Importar Bootstrap y aplicar variables personalizadas
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Sobrescribir estilos de Bootstrap
+.card {
+  border-radius: 15px; // Bordes más redondeados
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Sombra ligera
+}
+
+.alert-primary {
+  background-color: $primary; // Color personalizado
+  color: #fff;
+}

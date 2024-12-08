@@ -1,0 +1,132 @@
+.brand-tittle{
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #179fcd;
+    text-decoration: none;
+  }
+  .brand-slogan{
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #179fcd;
+    text-decoration: none;
+  }
+  /* Estilos para el navbar */
+  .navbar {
+    background-color: white; 
+    padding: 2em; 
+    box-sizing: border-box;
+  }
+
+  .navbar-brand {
+    display: flex; 
+    align-items: center;
+    
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+    max-width: 320px;
+    height: 76px;
+  }
+
+  /* Estilo para los enlaces del navbar */
+  .navbar .nav-link {
+    font-size: 1.2rem; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #6c757d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 17px 20px;
+  }
+
+  /* Efecto hover para los enlaces */
+  .navbar .nav-link:hover {
+    color: #179fcd; 
+  }
+
+  /* Estilo para el botón del navbar */
+  .navbar .btn {
+    font-size: 1.2rem;
+    padding: 0.75em 1.5em;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #179fcd;
+    color: white;
+  }
+
+  /* Efecto hover en el botón */
+  .navbar .btn:hover {
+    background-color: #fafafa;
+    color: black;
+    transform: translateY(-2px);
+  }
+
+  .nav-item :hover {
+    color: #179fcd;
+  }
+
+  /* Estilo cuando el botón recibe foco */
+  .navbar .btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  }
+  .navbar .btn.ml-auto {
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  /* Media query para pantallas pequeñas */
+  @media (max-width: 915px) {
+    .navbar .btn {
+      font-size: 1rem;
+      padding: 0.5em 1.2em;
+    }
+  }
+ 
+  .card-body {
+    text-align: center; /* Centra el texto dentro de la card-body */
+  }
+  
+  .btncard {
+    display: flex;
+    justify-content: center; /* Asegura que el icono dentro del botón esté centrado */
+    align-items: center; /* Centra el icono verticalmente dentro del botón */
+    padding: 10px 20px; /* Ajusta el tamaño del botón */
+  }
+  
+  .card-img-top {
+    border-radius: 10px;
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover;
+  }
+
+  .carousel-indicators button {
+    background-color: #00BFFF; /* Celeste */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #179fcd; /* Celeste oscuro cuando está activo */
+  }
+
+  .btncarousel {
+    font-size: small;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: none;
+    background-color: #179fcd;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .btncarousel:hover {
+    background-color: white; /* Celeste oscuro en hover */
+    color: black; /* Texto blanco al pasar el mouse */
+  }
